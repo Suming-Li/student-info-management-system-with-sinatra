@@ -1,0 +1,10 @@
+h1 Students List
+
+- if @s.any?
+  ul#songs
+    -@s.each do |student|
+      li <h4><a href="/student entry/#{student.id}">#{student.name}</a></h4>
+- else
+  h4 Empty
+br
+h1 <a href="/student entry/new"> Add Student </a>

@@ -1,0 +1,15 @@
+h1 =@student.name 
+
+h4 Student ID: #{@student.student_id}
+h4 Email: #{@student.email}
+h4 Grade: #{@student.grade}
+
+form action="/student entry/#{@student.id}" method="POST"
+  input type="hidden" name="_method" value="DELETE"
+  input type="submit" value="Delete"
+
+br
+br
+h1 <a href="/student entry/#{@student.id}/edit">Edit Information</a>
+br
+h1 <a href="/student entry">Students List</a>
