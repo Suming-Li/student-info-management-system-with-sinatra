@@ -2,6 +2,10 @@
 
 https://coen278morning.herokuapp.com/
 
+– Built a dynamic website with Sinatra framework to manage and display student information.
+
+– Implemented privilege management for teachers’ and students’ accounts.
+
 Logon page:
 
 Open the url above
